@@ -6,6 +6,8 @@
 roslaunch turn_on_dlrobot_robot navigation.launch
 roslaunch lslidar_driver start.launch
 roslaunch pointcloud_to_laserscan pointcloud_scan.launch
+# 或者运行这个launch文件
+roslaunch turn_on_dlrobot_robot ge(Tab键)
 """
 
 import rospy
