@@ -1,0 +1,14 @@
+<launch>
+
+    <!-- 开启机器人底层相关节点  -->
+    <include file="$(find turn_on_dlrobot_robot)/launch/navigation.launch" />
+
+    <!-- 启动ls16雷达 -->
+    <include file="$(find lslidar_driver)/launch/start.launch" />
+    <include file="$(find pointcloud_to_laserscan)/launch/pointcloud_scan.launch"/>
+  
+    <!-- 开启lidar data deal建图算法  -->
+
+    <node name="pointcloud_subscriber" pkg="turn_on_dlrobot_robot" type="distance_deal_and_pub1.py" output="screen" />
+
+</launch>

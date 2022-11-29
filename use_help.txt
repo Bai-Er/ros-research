@@ -1,0 +1,7 @@
+使用说明：
+
+export ROS_HOSTNAME=localhost
+export ROS_MASTER_URI=http://localhost:11311
+
+roslaunch turn_on_dlrobot_robot ge_detect_and_run.launch
+rosrun turn_on_dlrobot_robot car_control_final11_26_final.py
