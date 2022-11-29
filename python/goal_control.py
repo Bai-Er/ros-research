@@ -1,3 +1,8 @@
+"""
+用于发送目标点
+"""
+
+
 from launch_demo import launch_demo
 import rospy
 

@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 # encoding: utf-8
+"""
+多点巡航代码, 和rviz配合使用
+"""
 
 from visualization_msgs.msg import Marker
 from visualization_msgs.msg import MarkerArray

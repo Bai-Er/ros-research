@@ -1,6 +1,9 @@
+"""
+和launch_demo.py文件配合使用
+"""
+
 from launch_demo import launch_demo
 import rospy
-
 import actionlib  # 用于控制机器人动作的包
 from actionlib_msgs.msg import * 
 from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal
